@@ -1,2 +1,3 @@
 I added this document after I edited document1 and created document2 from my raspberry pi. I haven't committed from the raspberry pi yet. (Not for lack of trying. lol)
 I am going to remove some characters to this file and see the changes.
+I am going to see if the RasPi pulls it now. Did a git reset --hard and lost the changes on the pi. lol
