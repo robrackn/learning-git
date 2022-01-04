@@ -30,6 +30,13 @@ I added and committed both of them. Now I need to merge.
 ## Lesson 4: Merging
 I've been in `branch1` but I need to get back to the `main` branch.
 `git checkout main` will send me back into the main branch.
+`git commit branch1 -m 'making a change from a branch'` will stage the file.
+You need to get back to the main branch `git checkout main`
+Finally `git merge branch1` will incorporate via "fast forward" all the changes you made while on branch1.
+Finally finally, `git push origin main` to send the changes back up to github.
+
+## Lesson 5: Deleting a branch
+`git branch -d <branch name>` will delete the branch. 
 
 ## A quick aside: Logging (source: https://www.atlassian.com/git/tutorials/git-log)
 `git log -1` can show you the last commit whereas `git log -4` will show the 4 most recent commits.
