@@ -10,6 +10,8 @@ However, `git status` would be a better option if you just want to quickly know 
 `git clone` will clone the repository currently on the github server onto the RaspBerry pi.
 For simplicity, we'll assume it's the master branch.
 
+`git pull --all` will pull ALL the changes from github. If you have an elaborate branching system this might not be ideal. `git pull` will simply pull from whatever repository you have active.
+
 ## Lesson 2: Create a new document for the repository on the RasPi
 *This assumes you know how to use vim to create a document and save it.*
 
@@ -18,6 +20,15 @@ For simplicity, we'll assume it's the master branch.
 2. Then you issue a `git commit`
 3. Finally `git push origin main` the document up to github (main) branch on github on the (origin) github server.
 (Assuming 2-factor is enabled, you will need your username, and the token you created in 'settings -> developer' on github. The token will take the place of your password.)
+
+## Lesson 3: Branching
+`git branch <branch name>` on the RasPi will create a branch but not switch you to it. In my case, I named it branch1.
+`git checkout branch1` will switch you to that branch.
+I created Document1 and I edited document1 while in branch1.
+I added and committed both of them. Now I need to merge.
+
+## Lesson 4: Merging
+
 
 ## A quick aside: Logging (source: https://www.atlassian.com/git/tutorials/git-log)
 `git log -1` can show you the last commit whereas `git log -4` will show the 4 most recent commits.
