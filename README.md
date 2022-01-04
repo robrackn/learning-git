@@ -28,7 +28,8 @@ I created Document1 and I edited document1 while in branch1.
 I added and committed both of them. Now I need to merge.
 
 ## Lesson 4: Merging
-
+I've been in `branch1` but I need to get back to the `main` branch.
+`git checkout main` will send me back into the main branch.
 
 ## A quick aside: Logging (source: https://www.atlassian.com/git/tutorials/git-log)
 `git log -1` can show you the last commit whereas `git log -4` will show the 4 most recent commits.
