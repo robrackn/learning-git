@@ -4,6 +4,7 @@
 
 ## Lesson 1: Cloning the repository onto the Raspberry Pi 
 *This assumes you've created your repository on github.*
+
 `git clone` will clone the repository currently on the github server onto the RaspBerry pi.
 For simplicity, we'll assume it's the master branch.
 
