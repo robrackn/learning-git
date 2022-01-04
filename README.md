@@ -16,7 +16,7 @@ For simplicity, we'll assume it's the master branch.
 1. You must `git add document_name` the document so github knows about it.
 (If you try to commit without adding, you will get a message detailing the named `UNTRACKED FILES` along with a kindly-phrased suggestion to use `git add <files>` to include in what will be committed.)
 2. Then you issue a `git commit`
-3. Finally `git push` the document up to github.
+3. Finally `git push origin main` the document up to github (main) branch on github on the (origin) github server.
 (Assuming 2-factor is enabled, you will need your username, and the token you created in 'settings -> developer' on github. The token will take the place of your password.)
 
 ## A quick aside: Logging (source: https://www.atlassian.com/git/tutorials/git-log)
