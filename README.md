@@ -56,3 +56,70 @@ The chronological order of the `log` display descends from most recent commit at
 `git shortlog` will show who contributed commits and how many they contributed.
 
 `git log --graph` is useful when you want to visualize branching structure in a more complex repository.
+
+## Test2
+Created Test2 from github main branch
+
+`git pull` on raspi and edited the Test2 file:
+
+`git pull
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (8/8), 1.35 KiB | 345.00 KiB/s, done.
+From https://github.com/robrackn/learning-git
+   51517c4..c8aa0ba  main       -> origin/main
+   bda0347..c65d647  branch2    -> origin/branch2
+Updating 51517c4..c8aa0ba
+Fast-forward
+ Test2     | 1 +
+ document2 | 1 +
+ document3 | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 Test2`
+
+
+attempted `git commit` without first adding the modified file:
+`git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Test2
+
+no changes added to commit (use "git add" and/or "git commit -a")`
+
+
+`git add Test2` on raspi:
+-- file on github unchanged
+-- file on raspi is modified
+
+
+`git commit Test2` on raspi:
+-- file on github remains unchanged
+-- file on raspi remains modified
+`git commit Test2
+[main e1edc53] Editing file on RasPi. Completed git add and this is git commit
+ 1 file changed, 1 insertion(+)`
+
+
+`git push origin main` on raspi:
+-- file on github is updated and matches raspi
+-- file on raspi = file on github
+`pi@raspberrypi:~/Git/learning-git$ git push origin main
+Username for 'https://github.com': 'git username'
+Password for 'https://robrackn@github.com': 'used my key'
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 370 bytes | 123.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/robrackn/learning-git.git
+   c8aa0ba..e1edc53  main -> main`
+
+The file is sync'd on the raspi and on github in the main branch
