@@ -139,7 +139,8 @@ Then you will either
  `* [new branch]      robrackn-patch-2 -> origin/robrackn-patch-2`  
 `Already up to date.` 
 
-Now, on github you will see the person who created the new file in the new branch wants to that commit into main from robrackn-patch-2
+Now, on github click `pull requests` where you will see the file(s) added.
+Click "Create Patch2" where you will see the person who created the new file in the new branch wants to *merge 1 commit* into *main* from *robrackn-patch-2*
 There are four tabs under the Pull Requests tab.
 <table width="100%">
 <tr>
