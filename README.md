@@ -81,14 +81,14 @@ Created Test2 from github main branch
 
 
 attempted `git commit` without first adding the modified file:
-`git commit
-On branch main
-Your branch is up to date with 'origin/main'.
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   Test2
-no changes added to commit (use "git add" and/or "git commit -a")`
+`git commit`  
+`On branch main`  
+`Your branch is up to date with 'origin/main'.`  
+`Changes not staged for commit:`  
+  `(use "git add <file>..." to update what will be committed)`  
+  `(use "git restore <file>..." to discard changes in working directory)`  
+	`modified:   Test2`  
+`no changes added to commit (use "git add" and/or "git commit -a")`
 
 
 `git add Test2` on raspi:
@@ -96,12 +96,12 @@ no changes added to commit (use "git add" and/or "git commit -a")`
 -- file on raspi is modified
 
 
-`git commit Test2` on raspi:<br />
--- file on github remains unchanged<br />
--- file on raspi remains modified<br />
-`git commit Test2<br />
-[main e1edc53] Editing file on RasPi. Completed git add and this is git commit<br />
- 1 file changed, 1 insertion(+)`<br />
+`git commit Test2` on raspi:
+-- file on github remains unchanged
+-- file on raspi remains modified
+`git commit Test2<`  
+`[main e1edc53] Editing file on RasPi. Completed git add and this is git commit`  
+ `1 file changed, 1 insertion(+)`
 
 
 `git push origin main` on raspi:   
