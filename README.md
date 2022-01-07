@@ -118,6 +118,6 @@ no changes added to commit (use "git add" and/or "git commit -a")`
 `Total 3 (delta 1), reused 0 (delta 0), pack-reused 0`  
 `remote: Resolving deltas: 100% (1/1), completed with 1 local object.`  
 `To https://github.com/robrackn/learning-git.git`  
-   `c8aa0ba..e1edc53  main -> main``  
+   `c8aa0ba..e1edc53  main -> main`  
 
 The file is sync'd on the raspi and on github in the main branch
