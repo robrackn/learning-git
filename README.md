@@ -104,20 +104,20 @@ no changes added to commit (use "git add" and/or "git commit -a")`
  1 file changed, 1 insertion(+)`  
 
 
-`git push origin main` on raspi:\
--- file on github is updated and matches raspi\
--- file on raspi = file on github\
-`pi@raspberrypi:~/Git/learning-git$ git push origin main\
-Username for 'https://github.com': 'git username'\
-Password for 'https://robrackn@github.com': 'used my key'\
-Enumerating objects: 5, done.\
-Counting objects: 100% (5/5), done.\
-Delta compression using up to 4 threads.\ 
-Compressing objects: 100% (3/3), done.\
-Writing objects: 100% (3/3), 370 bytes | 123.00 KiB/s, done.\
-Total 3 (delta 1), reused 0 (delta 0), pack-reused 0\
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.\
-To https://github.com/robrackn/learning-git.git\
-   c8aa0ba..e1edc53  main -> main`\
+`git push origin main` on raspi:   
+-- file on github is updated and matches raspi   
+-- file on raspi = file on github   
+`pi@raspberrypi:~/Git/learning-git$ git push origin main   
+Username for 'https://github.com': 'git username'   
+Password for 'https://robrackn@github.com': 'used my key'   
+Enumerating objects: 5, done.   
+Counting objects: 100% (5/5), done.   
+Delta compression using up to 4 threads.   
+Compressing objects: 100% (3/3), done.   
+Writing objects: 100% (3/3), 370 bytes | 123.00 KiB/s, done.   
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0   
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.   
+To https://github.com/robrackn/learning-git.git   
+   c8aa0ba..e1edc53  main -> main`   
 
 The file is sync'd on the raspi and on github in the main branch
