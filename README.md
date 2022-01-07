@@ -139,5 +139,13 @@ Then you will either
  `* [new branch]      robrackn-patch-2 -> origin/robrackn-patch-2`  
 `Already up to date.` 
 
-Now, on github you will see the person who created the new file in the new branch wants to <span style="color:teal">merge</span> that commit into <span style="color:teal">main</span> from <span style="color:teal">robrackn-patch-2</span>
+Now, on github you will see the person who created the new file in the new branch wants to that commit into main from robrackn-patch-2
 There are four tabs under the Pull Requests tab.
+<table>
+<tr>
+<td width="25%">Conversation</td>
+<td width="25%">Commits</td>
+<td width="25%">Checks</td>
+<td width="25%">Files Changed</td>
+</tr>
+</table>
