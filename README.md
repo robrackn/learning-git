@@ -107,9 +107,12 @@ no changes added to commit (use "git add" and/or "git commit -a")`
 `git push origin main` on raspi:   
 -- file on github is updated and matches raspi   
 -- file on raspi = file on github   
-`pi@raspberrypi:~/Git/learning-git$ git push origin main   
-Username for 'https://github.com': 'git username'   
-Password for 'https://robrackn@github.com': 'used my key'   
+`pi@raspberrypi:~/Git/learning-git$ git push origin main
+
+Username for 'https://github.com': 'git username'
+
+Password for 'https://robrackn@github.com': 'used my key'
+
 Enumerating objects: 5, done.   
 Counting objects: 100% (5/5), done.   
 Delta compression using up to 4 threads.   
