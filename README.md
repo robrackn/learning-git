@@ -150,3 +150,33 @@ There are four tabs under the Pull Requests tab.
 <td width="25%">Files Changed (1)</td>
 </tr>
 </table>
+
+Options here are to:
+1. Create a merge commit (all commits from this branch will be added to the bas branch via a merge commit)
+2. Squash and merge (The 1 commit from this branch will be added to the base branch)
+3. Rebase and merge (The 1 commit from this branch will be rebased and added to the base branch)
+
+Rebasing is one of two Git utilities that integrates changes across branches. The golden rule of rebasing is to *NEVER* do it on `public` branches. If anyone else is looking at the branch, find another way.
+
+Its cohort is the `merge` command.
+Merging is always a forward-moving change whereas `rebase` can rewrite history.
+When you `branch` you necessarily end up with a forked history. When you `merge commit` you *non-destructively* tie together the histories of both branches. The down side is that new branch will have an extraneous merge commit every time an upstream change is required. It can muddy up the `main` branch history, making it hard for other developers to understand the history.
+
+The `Rebase` option will append the entire new branch to the end of the `main` branch, incorporating all the commits into `main`. The project history is rewritten.
+
+We will `Merge pull request` in this case.
+
+On the RasPi, doing a `git pull` will show the following:
+`remote: Enumerating objects: 21, done.`  
+`remote: Counting objects: 100% (20/20), done.`  
+`remote: Compressing objects: 100% (17/17), done.`  
+`remote: Total 17 (delta 11), reused 0 (delta 0), pack-reused 0`  
+`Unpacking objects: 100% (17/17), 4.55 KiB | 358.00 KiB/s, done.`  
+`From https://github.com/robrackn/learning-git`  
+   `d570f25..a3f9a3b  main       -> origin/main`  
+`Updating d570f25..a3f9a3b`  
+`Fast-forward`  
+ `Patch2    |  1 +`  
+ `README.md | 29 +++++++++++++++++++++++++++++`  
+ `2 files changed, 30 insertions(+)`  
+ `create mode 100644 Patch2`
