@@ -275,3 +275,7 @@ this gets added to the top of the graph:
 `* 3a79dff Create rebasetest`  
 `* f088138 Update README.md`  
 `* ecc5425 Update README.md`  
+
+## Deleting branches
+I will delete branch2, branch3, robrackn-patch-1, and robrackn-patch-2
+Nothing happens to the directory on the raspi, but now there is only one branch showing: `main`  
