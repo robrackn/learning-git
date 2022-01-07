@@ -180,3 +180,55 @@ On the RasPi, doing a `git pull` will show the following:
  `README.md | 29 +++++++++++++++++++++++++++++`  
  `2 files changed, 30 insertions(+)`  
  `create mode 100644 Patch2`
+
+## A quick look at the graph:
+`git log --graph --oneline`  
+`* ecc5425 (HEAD -> main, origin/main, origin/HEAD) Update README.md`  
+`*   a3f9a3b Merge pull request #4 from robrackn/robrackn-patch-2`  
+`|\  `  
+`| * efc0c5a (origin/robrackn-patch-2) Create Patch2`  
+`* | ecbb351 Update README.md`  
+`* | 7890830 Update README.md`  
+`* | 94337c7 Update README.md`  
+`* | b333bad Update README.md`  
+`* | 8b989cc Update README.md`  
+`|/  `  
+`* d570f25 Update README.md`  
+`* 016cda1 Update README.md`  
+`* 1e4f9c9 Update README.md`  
+`* a1a6b43 Update README.md`  
+`* 0fc4a3e Update README.md`  
+`* ad691dd Update README.md`  
+`* 3686f4a Update README.md`  
+`* 2b9cc7e Update README.md`  
+`* a668612 Update README.md`  
+`* 23ed365 Update README.md`  
+`*   a453e73 Merge pull request #3 from robrackn/robrackn-patch-1`  
+`|\  `  
+`| * 813ec7d (origin/robrackn-patch-1) New file created on robrackn-patch-1 branch`  
+`|/  `  
+`* 5e3a49e updated for Test2 commands and output`  
+`* e1edc53 Editing file on RasPi. Completed git add and this is git commit`  
+`* c8aa0ba Create Test2 in main branch`  
+`* 9904729 Document 3 for branch 3`  
+`* b1bcbe2 Added line of text while in branch2`  
+`* 51517c4 Merging, pushing, and deleting branches`  
+`* adcf704 making a change in a branch`  
+`* fe14084 Delete t`  
+`* 8bbbcb0 Added more info on merging`  
+`*   803301a Merge branch 'main' of https://github.com/robrackn/learning-git`  
+`|\  `  
+`| * 2864a78 Branching`  
+`* | d5585f9 i don't really know what this is`  
+`|/  `  
+`* 52a6948 Cleared up git push`  
+`* 051662c Updated Readme to cover logging`  
+`* e671dde Update README.md`  
+`* 6fe9648 Lesson 1 and 2 partials`  
+`* 60b74ab Adding this document created from my RasPi`  
+`* c552362 Update document3`  
+`* df2d796 Update document3`  
+`* 2343d38 Update document3`  
+`* 04ecfda Created Document 3`  
+`* fcbb751 Created Readme`  
+`* 85155c5 Create first document`  
