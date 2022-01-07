@@ -141,11 +141,11 @@ Then you will either
 
 Now, on github you will see the person who created the new file in the new branch wants to that commit into main from robrackn-patch-2
 There are four tabs under the Pull Requests tab.
-<table>
+<table width="100%">
 <tr>
 <td width="25%">Conversation</td>
-<td width="25%">Commits</td>
+<td width="25%">Commits (1)</td>
 <td width="25%">Checks</td>
-<td width="25%">Files Changed</td>
+<td width="25%">Files Changed (1)</td>
 </tr>
 </table>
