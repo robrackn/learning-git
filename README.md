@@ -232,3 +232,46 @@ On the RasPi, doing a `git pull` will show the following:
 `* 04ecfda Created Document 3`  
 `* fcbb751 Created Readme`  
 `* 85155c5 Create first document`  
+
+## Test4 Rebasing
+I created a file and deleted it.
+Now I will create `RebaseTest1
+` in a new branch named `rbtest`  
+
+`git pull`  
+`remote: Enumerating objects: 8, done.`  
+`remote: Counting objects: 100% (8/8), done.`  
+`remote: Compressing objects: 100% (5/5), done.`  
+`remote: Total 7 (delta 2), reused 0 (delta 0), pack-reused 0`  
+`Unpacking objects: 100% (7/7), 1.86 KiB | 476.00 KiB/s, done.`  
+`From https://github.com/robrackn/learning-git`  
+   `f088138..42936cd  main       -> origin/main`  
+ `* [new branch]      rbtest     -> origin/rbtest`  
+`Updating f088138..42936cd`  
+`Fast-forward`  
+
+`Rebase and merge` happened on github site
+on raspi:
+`git pull`  
+`remote: Enumerating objects: 4, done.`  
+`remote: Counting objects: 100% (4/4), done.`  
+`remote: Compressing objects: 100% (2/2), done.`  
+`remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0`  
+`Unpacking objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.`  
+`From https://github.com/robrackn/learning-git`  
+   `42936cd..955b92c  main       -> origin/main`  
+`Updating 42936cd..955b92c`  
+`Fast-forward`  
+ `RebasTest1 | 1 +`  
+ `1 file changed, 1 insertion(+)`  
+ `create mode 100644 RebasTest1`  
+
+Now I can delete teh rbtest branch.
+Doing a `git pull` on the RasPi will simply say everything is already up to date.
+
+this gets added to the top of the graph:
+`* 955b92c (HEAD -> main, origin/main, origin/HEAD) Create RebasTest1`  
+`* 42936cd Delete rebasetest`  
+`* 3a79dff Create rebasetest`  
+`* f088138 Update README.md`  
+`* ecc5425 Update README.md`  
