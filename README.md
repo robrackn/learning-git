@@ -140,7 +140,7 @@ Then you will either
 `Already up to date.` 
 
 Now, on github click `pull requests` where you will see the file(s) added.
-Click "Create Patch2" where you will see the person who created the new file in the new branch wants to *merge 1 commit* into *main* from *robrackn-patch-2*
+Click "Create Patch2" where you will see the person who created the new file in the new branch wants to **merge 1 commit** into **main** from **robrackn-patch-2**
 There are four tabs under the Pull Requests tab.
 <table width="100%">
 <tr>
