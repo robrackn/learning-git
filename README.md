@@ -121,3 +121,23 @@ attempted `git commit` without first adding the modified file:
    `c8aa0ba..e1edc53  main -> main`  
 
 The file is sync'd on the raspi and on github in the main branch
+
+## Test 3
+I'm creating a new text file named *Patch2* on github site in the branch *robrackn-patch-2*
+After editing the file, click `Propose new file`
+Then you will either
+1. `Create pull request` - open pull request that is ready for review.
+2. `Create draft pull request` - this cannot be merged until it's marked ready for review
+
+`git pull` on the RasPi to see a new branch exists:
+`remote: Enumerating objects: 4, done.`  
+`remote: Counting objects: 100% (4/4), done.`  
+`remote: Compressing objects: 100% (2/2), done.`  
+`remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0`  
+`Unpacking objects: 100% (3/3), 730 bytes | 365.00 KiB/s, done.`  
+`From https://github.com/robrackn/learning-git`  
+ `* [new branch]      robrackn-patch-2 -> origin/robrackn-patch-2`  
+`Already up to date.` 
+
+Now, on github you will see the person who created the new file in the new branch wants to <span style="color:teal">merge</span> that commit into <span style="color:teal">main</span> from <span style="color:teal">robrackn-patch-2</span>
+There are four tabs under the Pull Requests tab.
