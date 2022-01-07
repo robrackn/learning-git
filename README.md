@@ -62,22 +62,22 @@ Created Test2 from github main branch
 
 `git pull` on raspi and edited the Test2 file:
 
-`git pull
-remote: Enumerating objects: 12, done.
-remote: Counting objects: 100% (11/11), done.
-remote: Compressing objects: 100% (7/7), done.
-remote: Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (8/8), 1.35 KiB | 345.00 KiB/s, done.
-From https://github.com/robrackn/learning-git
-   51517c4..c8aa0ba  main       -> origin/main
-   bda0347..c65d647  branch2    -> origin/branch2
-Updating 51517c4..c8aa0ba
-Fast-forward
- Test2     | 1 +
- document2 | 1 +
- document3 | 1 +
- 3 files changed, 3 insertions(+)
- create mode 100644 Test2`
+`git pull`  
+`remote: Enumerating objects: 12, done.`  
+`remote: Counting objects: 100% (11/11), done.`  
+`remote: Compressing objects: 100% (7/7), done.`  
+`remote: Total 8 (delta 4), reused 0 (delta 0), pack-reused 0`  
+`Unpacking objects: 100% (8/8), 1.35 KiB | 345.00 KiB/s, done.`  
+`From https://github.com/robrackn/learning-git`  
+   `51517c4..c8aa0ba  main       -> origin/main`  
+   `bda0347..c65d647  branch2    -> origin/branch2`  
+`Updating 51517c4..c8aa0ba`  
+`Fast-forward`  
+ `Test2     | 1 +`  
+ `document2 | 1 +`  
+ `document3 | 1 +`  
+ `3 files changed, 3 insertions(+)`  
+ `create mode 100644 Test2`
 
 
 attempted `git commit` without first adding the modified file:
